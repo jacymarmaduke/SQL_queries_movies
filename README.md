@@ -16,13 +16,14 @@ The sample database is from PostgreSQLTutorial.com. See more information about t
 
 
 ## Tableau analysis
-I created Tableau visualizations to illustrate the results of some of my SQL queries. View these on my [Tableau Public page](https://public.tableau.com/app/profile/jacquelyn.marmaduke/viz/SQLVisualizations/topcustomers?publish=yes).
-(insert map image)
+I created Tableau visualizations to illustrate the results of some of my SQL queries. View more of these on my [Tableau Public page](https://public.tableau.com/app/profile/jacquelyn.marmaduke/viz/SQLVisualizations/topcustomers?publish=yes).
 
-Contents
-File name:
-File name:
-File name:
-File name:
-File name:
+![Top customers and countries map produced in Tableau](https://github.com/jacymarmaduke/SQL_queries_movies/blob/cfc4631c962a880c6e81c52fc0d6bdf2d57380f5/customer%20map.png)
+
+## Contents
+**data_cleaning_summarizing.md:** Contains queries for cleaning and summarizing data, including finding missing data, inconsistent data and duplicates and calculating summary statistics such as mean, minimum, maximum and mode. Includes clauses such as SELECT, SELECT DISTINCT, HAVING, COUNT and UPDATE.
+**data_filtering.md:** Contains queries for filtering, grouping, aliasing and aggregating data, using clauses such as WHERE, HAVING, AS, GROUP BY and ORDER BY.
+**table_joins.md:** Contains queries for joining tables in a database and applying the joins to analyze data, using the INNER JOIN clause.
+**subqueries.md:** Contains queries that use subqueries to analyze data.
+**CTEs.md:** Contains queries that use common table expressions to analyze data, using the WITH clause.
 
