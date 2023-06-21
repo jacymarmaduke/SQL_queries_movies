@@ -1,4 +1,4 @@
-# Filtering data using WHERE and HAVING clauses
+# Filtering data using WHERE clause
 ```
 /* Create a list of films rated PG or G */
 
@@ -29,4 +29,15 @@ MIN(rental_duration) AS minimum_rental_duration
 FROM film
 WHERE rating = 'PG' OR rating = 'G'
 GROUP BY rating
+```
+
+# Filtering aggregated data with a HAVING clause
+```
+/* Generate a list of film counts by rating, but only for ratings with at least 100 titles */
+SELECT rating,
+       COUNT(film_id) AS count_of_movies,
+FROM film
+GROUP BY rating
+HAVING COUNT(fim_id) > 100
+ORDER BY count_of_movies DESC
 ```
