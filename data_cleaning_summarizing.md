@@ -11,7 +11,7 @@ FROM customer
 GROUP BY first_name, last_name, email
 HAVING COUNT (*) >1
 
-## To view only distinct records (useful if analyst lacks permissions to create a view/delete records)
+## To view only distinct records 
 
 SELECT DISTINCT title,
                 release_year,
